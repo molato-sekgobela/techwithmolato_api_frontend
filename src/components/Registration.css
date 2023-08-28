@@ -1,0 +1,85 @@
+/* Registration.css */
+
+/* Center the registration form vertically and horizontally */
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally on the page */
+  }
+  
+  /* Form styling */
+  .registration-form {
+    display: flex;
+    flex-direction: row; /* Create a two-column layout */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px; /* Adjust the max width of the form */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text content within the form */
+  }
+  
+  .form-group {
+    flex: 1; /* Make each form-group take equal space in columns */
+    margin: 0 10px; /* Add space between columns */
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Center input fields within their column */
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .register-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  /* Registration.css */
+/* Registration.css */
+/* Registration.css */
+.bottom-right-button {
+    text-align: right;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Center the button within the container */
+  .registration-container {
+    display: flex;
+
+  }
+  
