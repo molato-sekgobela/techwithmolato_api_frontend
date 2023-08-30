@@ -1,7 +1,8 @@
-<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Run this command to Ensure latest versions of all dependencies
+npm install
 
 ## Available Scripts
 
@@ -69,7 +70,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# techwithmolato_api_frontend
-frontend (UI) for API endpoints
->>>>>>> 1d53881cc505cefacc0b2457f958b4ae38ef76ef

@@ -1,30 +1,31 @@
-// App.js
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Login from './components/Login';
-import Register from './components/Register'
-import UserDashboard from './components/UserDashboard';
-import AdminDashboard from './components/AdminDashboard';
-import HealthCheck from './components/HealthCheck';
+// * IMPORT COMPONENTS
+import Login from './components/auth/login'
+import Register from './components/auth/register'
+import Dashboard from './components/auth/dashboard'
+import HealthStatus from './components/core/healthstatus'
+import AdminDashboard from './components/auth/admindashboard'
+import UpdateUser from './components/auth/updateuser'
 
-const App = () => {
+
+function App() {
   return (
-    <Router>
-      <Routes>
-        {/* Public routes */}
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/health-check" element={<HealthCheck />} />
-        {/* Protected routes */}
-        <Route path="/userdashboard" element={<UserDashboard />} />
-        <Route path="/admindashboard" element={<AdminDashboard />} />
+    <main className='main-container w-100'>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Login />} />
+          <Route path='/register' element={<Register />} />
+          <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/health-check' element={<HealthStatus />} />
+          <Route path='/admindashboard' element={<AdminDashboard />} />
+          <Route path='/update-user' element={<UpdateUser />} />
+          
+        </Routes>
 
-        {/* Default route for unknown URLs */}
-        <Route path="/*" element={<Navigate to="/login" />} />
-      </Routes>
-    </Router>
+      </BrowserRouter>
+    </main>
   );
-};
+}
 
 export default App;

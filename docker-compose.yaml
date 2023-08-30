@@ -1,11 +1,8 @@
 version: '3'
 services:
-  react-app:
+  app:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: techwithmolato-frontend
     ports:
-      - "3000:3000"
-    volumes:
-      - ./mounted-volume:/techwithmolato/mounted-volume
+      - '3000:3000'

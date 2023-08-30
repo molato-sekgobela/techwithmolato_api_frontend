@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,700;1,400&display=swap');
+
+@import './components/helpers/brandVariables.scss';
+@import './components/helpers/quickClasses.scss';
+@import './components/helpers/customClasses.scss';
+@import './components/layout/headerFooter.scss';
+@import './components/layout/burgerMenu.scss';
+// @import './components/core/landingPage.scss';
+// @import './components/setup/setup.scss';
+@import './components/auth/auth.scss';
+@import './components/auth/dashboard.scss';
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  
+}
+
+.main-container {
+  width: 100%;
+}
+
+// * ACROSS ALL
+.btn {
+  padding: 10px;
+  color: #ffffff !important;
+  border: .5px solid lightgray;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: linear-gradient(
+   /* 92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%*/
+    92.23deg,
+    #c756ff 21.43%,
+    #ca26ef 50.63%,
+    #dc2fd6 100%,
+    #c71491 117.04%
+  );
+  font-weight: 700;
+}
+
