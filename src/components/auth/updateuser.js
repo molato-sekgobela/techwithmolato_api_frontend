@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Typography,TextField, Button,Box} from '@mui/material';
+axios.defaults.baseURL= 'https://s-creations.co.za'
 
 
 const UpdateUser = () => {
@@ -55,7 +56,7 @@ const UpdateUser = () => {
       });
       alert('User updated successfully!');
       console.log(loggedInId);
-      navigate('/admindashboard',{state: {loggedInId: 1}}); // Redirect to the admin dashboard after successful update
+      navigate('/admindashboard',{state: {loggedInId }}); // Redirect to the admin dashboard after successful update
     } catch (error) {
       console.error('Error updating user:', error);
     }

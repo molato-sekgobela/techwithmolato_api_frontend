@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import UserProfile from './userprofile'
 import LandingPage from '../layout/headerdashboard'
-axios.defaults.baseURL = 'http://localhost:3001'
+axios.defaults.baseURL = 'https://s-creations.co.za'
 
 
 const Dashboard = () => {

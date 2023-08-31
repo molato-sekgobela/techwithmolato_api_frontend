@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './HealthStatus.css'; // Import the CSS file for styling
 import LandingPage from '../layout/header'
-axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL= 'https://s-creations.co.za'
 
 const HealthStatus = () => {
   const [status, setStatus] = useState('Checking...');
@@ -38,7 +38,6 @@ const HealthStatus = () => {
 
   return (
     <div>
-    <LandingPage />
     <div className="health-status-container">
       <h1 className="title">Health Status</h1>
       <div className="status-item">

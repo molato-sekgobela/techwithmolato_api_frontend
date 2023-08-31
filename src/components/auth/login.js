@@ -5,8 +5,9 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { setTokenToLocalStorage } from '../helpers/auth.js';
 import LandingPage from '../layout/header'
+import HealthStatus from '../core/healthstatus'
 
-axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL= 'https://s-creations.co.za';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -75,6 +76,37 @@ const Login = () => {
         <Link className='link text-center' id='register-link' to='/register'>Not a member yet? Create Account.</Link>
       </form>
     </Container>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    < HealthStatus />
     </div>
   )
 }

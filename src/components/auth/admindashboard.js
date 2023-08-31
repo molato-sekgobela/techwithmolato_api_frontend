@@ -7,7 +7,7 @@ import { Grid, Card, CardContent, Typography, Button } from '@mui/material';
 import UserProfile from './userprofile';
 import LandingPage from '../layout/headerdashboard'
 
-axios.defaults.baseURL = 'http://localhost:3001'
+axios.defaults.baseURL = 'https://s-creations.co.za'
 
 const AdminDashboard = () => {
   const location = useLocation();

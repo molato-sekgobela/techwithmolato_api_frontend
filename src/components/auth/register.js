@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom'
 import LandingPage from '../layout/header'
 
-axios.defaults.baseURL= 'http://localhost:3001'
+axios.defaults.baseURL= 'https://s-creations.co.za'
 
 const Register = () => {
 
